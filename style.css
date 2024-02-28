@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(imagens/bg-body.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background: linear-gradient(132deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 100.00%);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: sticky;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.logo1{
+    background-image: url(imagens/logo2-removebg-preview.png);
+    height: 90px;
+    width: 190px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(4px black);
+}
+
+
+.container-form{
+display: flex;
+justify-content: space-between;
+}
+
+.container-form{
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.background{
+    width: 950px;
+    height: 600px;
+    background-image: url(imagens/bg-foto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.container{
+    width: 350px;
+    height: 510px;
+    background: linear-gradient(132deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.formulario{
+    color: black;
+}
+
+.anuncio{
+    width: 100%;
+    padding: 30px 20px;
+    background: linear-gradient(132deg, rgb(0, 48, 143) 0.00%, rgb(0, 255, 255) 100.00%);
+    color: white;
+}
+
+form{
+    padding: 15px;
+}
+
+form input[type=text]{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+form input[type=email]{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+input::placeholder{
+    padding-left: 3%;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input{
+    padding-left: 20px ;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.enviar{
+    margin-top: 10%;
+    width: 250px;
+    margin-left: 12%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(132deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 100.00%);
+    color: white;
+}
+
+.container-alegria{
+    width: 950px;
+    background: rgb(110, 136, 161);
+    margin-left: 177px;
+    padding: 30px 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.strong{
+    margin-left: 40%;
+    margin-top: 25px ;
+    
+}
+
+.felicidade{
+    margin-left: 38%;
+
+}
+
+.container-fotos{
+display: flex;
+flex-direction: column;
+
+}
+.container-foto{
+    width: 950px;
+    background: rgb(152, 168, 255);
+    margin-left: 177px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.foto1{
+    width: 60%;
+   background-image: url(imagens/foto1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    
+}
+
+.texto-foto{
+
+    width: 40%;
+    padding: 100px;
+}
+.container-foto2{
+    width: 950px;
+    background: rgb(46, 195, 206);
+    margin-left: 177px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+ 
+}
+
+.foto2{
+    width: 60%;
+    background-image: url(imagens/foto2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.texto-foto2{
+    width: 40%;
+    padding: 100px;
+    color: white;
+}
+
+.container-foto3{
+    width: 950px;
+    background: rgb(81, 185, 154);
+    margin-left: 177px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.foto3{
+    width: 60%;
+    background-image:url(imagens/foto3.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.texto-foto3{
+    width: 40%;
+    padding: 100px;
+}
+
+
+
+
+
